@@ -31,6 +31,7 @@ const ArticleDetailPage = () => {
         { name: "Article title", link: `/blog/${data.slug}` },
       ]);
       setBody(parseJsonToHtml(data?.body));
+      console.log(body);
     },
   });
 
